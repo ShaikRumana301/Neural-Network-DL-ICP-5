@@ -7,12 +7,12 @@ Video Link:
 The following steps are followed for ICP-5:
 
 In Jupiter notepad written the code for the following and mentioned the comments for the code and uploaded the "ICP-5.ipynb" to repo:
-1.	Implemented Naïve Bayes method using scikit-learn library 
-•	Used dataset available with name glass 
-•	Used train_test_split to create training and testing part 
+1.	Implemented Naïve Bayes method using scikit-learn library
+  - Used dataset available with name glass 
+  - Used train_test_split to create training and testing part 
 •	Evaluated the model on test part using score and classification report. 
 
-2.	Implemented linear SVM method using scikit library 
+3.	Implemented linear SVM method using scikit library 
 •	Used the same dataset above 
 •	Used train_test_split to create training and testing part 
 •	Evaluated the model on test part using score and classfiication report.
