@@ -23,6 +23,11 @@ In the Video Link consists of Video regarding the technical explanation of the c
 
 Conclusion:
 
-When we compare the Naïve Bayes and SVM both read the glass.csv data set and x_train has all the data except for type column data and y_train had only type column data x_train and y_train has been divided into 80:20 ratio. Declared naive Bayes ML algo in Code 1 and SVM method for Code 2, to fit and train data. Following the training, predictions are made, and the results are stored in y_pred, with the actual data available in y_test.
+When we compare the Naïve Bayes and linear SVM both read the glass.csv data set and x_train has all the data except for type column data and y_train had only type column data x_train and y_train has been divided into 80:20 ratio. Declared naive Bayes method in Code 1 and linear SVM method for Code 2, to fit and train data. Following the training, predictions are made, and the results are stored in y_pred, with the actual data available in y_test.
+After running both methods and comparing the accuracy, we can say that Linear SVM has a better accuracy score than Gaussian Naive Bayes. The reason for this could be because Linear SVM is better suited for complex and non-linearly separable datasets. The SVM algorithm tries to find the maximum margin between the data points and the decision boundary, which makes it robust to outliers and non-linearities, where it finds the hyper plane. Additionally, SVM allows for more flexibility in terms of choosing different kernel functions to tackle different types of data distributions. Gaussian Naive Bayes, on the other hand, assumes independence between the features and is not as robust as SVM for complex datasets.
 
-After running both the methods and comparing the accuracy, we can say that Naïve Bayen has performed better than the SVM method because The Naive Bayes algorithm is more accurate and efficient on large data sets since the space complexity and time are less when compared to the SVM method.
+The dataset size and structure, if the data has many features and is easy to interpret, Naive Bayes can be more effective. The data distribution, Naive Bayes assumes that the features are independent, if the features in the data are not independent, the performance of Naive Bayes can decrease.
+The accuracy of the model can also depend on the choice of hyperparameters, if the hyperparameters of the Naïve Bayes algorithm were not optimized, this could result in a lower accuracy score. It is important to keep in mind that accuracy is not the only evaluation metric that should be considered, other metrics such as precision, recall, and score should also be considered to get a comprehensive evaluation on performance.
+
+
+
